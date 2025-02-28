@@ -453,6 +453,16 @@
 
         </div>
     </footer>
+     <script>
+        document.querySelectorAll('ul li').forEach(item => {
+            item.addEventListener('click', event => {
+                const dropdown = item.querySelector('.dropdown, .dropdown2, .dropdown3, .dropdown4, .dropdown5, .dropdown6, .dropdown7, .dropdown8, .dropdown9, .dropdown10, .dropdown11');
+                if (dropdown) {
+                    dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>
