@@ -1498,3 +1498,366 @@
                 border-radius: 50px;
                 box-shadow: 5px 2px 30px yellowgreen;
             }
+
+
+ /* Media Queries for Responsive Design */
+            
+            @media (max-width: 768px) {
+                h1.heading {
+                    font-size: 30px;
+                    left: 20px;
+                    top: 20px;
+                }
+                h2 {
+                    font-size: 24px;
+                    left: 20px;
+                    top: -400px;
+                    /* Adjust as needed */
+                }
+                p {
+                    left: 20px;
+                    /* Adjust as needed */
+                    top: -100px;
+                    /* Adjust as needed */
+                }
+                .rich h3,
+                .OPAC h3,
+                .LAB h3 {
+                    left: 20px;
+                    /* Adjust as needed */
+                    top: -300px;
+                    /* Adjust as needed */
+                }
+                .rich p,
+                .OPAC p,
+                .LAB p {
+                    left: 20px;
+                    /* Adjust as needed */
+                    top: -320px;
+                    /* Adjust as needed */
+                }
+                h4 a {
+                    right: 20px;
+                    /* Adjust as needed */
+                    top: 10px;
+                    /* Adjust as needed */
+                }
+                /* Additional styles for smaller screens */
+                img {
+                    margin: 10px;
+                    /* Adjust as needed */
+                    width: 100%;
+                    /* Make images responsive */
+                    height: auto;
+                    /* Maintain aspect ratio */
+                }
+            }
+            /* Base styles for larger screens */
+            /* Media query for mobile devices */
+            
+            @media (max-width: 768px) {
+                .navbar {
+                    top: 0;
+                    /* Adjust navbar position */
+                    padding: 10px;
+                    /* Add padding for touch targets */
+                }
+                .navbar li {
+                    display: block;
+                    /* Stack items vertically */
+                    margin: 10px 0;
+                    /* Adjust margin */
+                }
+                .navbar input {
+                    width: 100%;
+                    /* Make input full width */
+                    margin-top: 10px;
+                    /* Add margin for spacing */
+                }
+                .container {
+                    height: auto;
+                    /* Allow container to adjust height */
+                }
+                img.logo {
+                    width: 60px;
+                    /* Adjust logo size */
+                    height: auto;
+                    /* Maintain aspect ratio */
+                }
+                .paragraph {
+                    margin-left: 10px;
+                    /* Adjust margin for smaller screens */
+                }
+                .wpml-language {
+                    right: 10px;
+                    /* Adjust position */
+                    font-size: 16px;
+                    /* Adjust font size */
+                }
+                .oval {
+                    width: 70px;
+                    /* Adjust oval size */
+                }
+                .row {
+                    margin-left: 0;
+                    /* Remove negative margins */
+                    margin-right: 0;
+                    /* Remove negative margins */
+                }
+                .col-md-3,
+                .col-sm-6 {
+                    width: 100%;
+                    /* Make columns full width */
+                    padding: 0;
+                    /* Remove padding */
+                }
+                .service-icon-center .icon-container {
+                    width: 80px;
+                    /* Adjust icon container size */
+                    height: 80px;
+                    /* Adjust icon container size */
+                }
+                h3 {
+                    font-size: 16px;
+                    /* Adjust heading size */
+                }
+                p {
+                    font-size: 14px;
+                    /* Adjust paragraph size */
+                }
+            }
+            
+            @media (max-width: 768px) {
+                .dropdown,
+                .dropdown2,
+                .dropdown3,
+                .dropdown4,
+                .dropdown5,
+                .dropdown6,
+                .dropdown7,
+                .dropdown8,
+                .dropdown9,
+                .dropdown10,
+                .dropdown11 {
+                    width: 100%;
+                    /* Make dropdowns full width on mobile */
+                    position: relative;
+                    /* Change position to relative for better stacking */
+                }
+                ul li:hover .dropdown,
+                ul li:hover .dropdown2,
+                ul li:hover .dropdown3,
+                ul li:hover .dropdown4,
+                ul li:hover .dropdown5,
+                ul li:hover .dropdown6,
+                ul li:hover .dropdown7,
+                ul li:hover .dropdown8,
+                ul li:hover .dropdown9,
+                ul li:hover .dropdown10,
+                ul li:hover .dropdown11 {
+                    display: block;
+                    /* Ensure dropdowns are displayed on hover */
+                    margin-left: 0;
+                    /* Reset margin for mobile */
+                    margin-top: 0;
+                    /* Reset margin for mobile */
+                }
+            }
+            /* Media Queries for Mobile Devices */
+            
+            @media (max-width: 768px) {
+                #course {
+                    font-size: 18px;
+                    /* Reduce font size */
+                    left: 20px;
+                    /* Adjust position */
+                }
+                .course1 {
+                    width: 100%;
+                    /* Make it full width */
+                    height: auto;
+                    /* Adjust height */
+                    padding: 10px;
+                    /* Add some padding */
+                }
+                .course1 ul li {
+                    font-size: 12px;
+                    /* Smaller font size */
+                }
+                ol li {
+                    font-size: 12px;
+                    /* Smaller font size */
+                    margin: 5px;
+                    /* Adjust margin */
+                }
+                .maam img,
+                .teacher img {
+                    height: 150px;
+                    /* Reduce image size */
+                    width: 100%;
+                    /* Make it responsive */
+                }
+                .hod {
+                    width: 100%;
+                    /* Full width */
+                    left: 0;
+                    /* Center it */
+                }
+                .aarti p {
+                    font-size: 16px;
+                    /* Smaller font size */
+                    left: 10px;
+                    /* Adjust position */
+                }
+                .principal {
+                    height: 120px;
+                    /* Adjust height */
+                    width: 120px;
+                    /* Adjust width */
+                    right: 10px;
+                    /* Adjust position */
+                }
+                .sunita {
+                    font-size: 20px;
+                    /* Smaller font size */
+                }
+                .all-stu {
+                    width: 90%;
+                    /* Full width */
+                    margin: 0 auto;
+                    /* Center it */
+                }
+                .curcle5 {
+                    flex-direction: column;
+                    /* Stack items vertically */
+                    height: auto;
+                    /* Adjust height */
+                }
+                .cur1,
+                .cur2,
+                .cur3,
+                .cur4 {
+                    font-size: 10px;
+                    /* Smaller font size */
+                }
+                .eligi-3 {
+                    width: 90%;
+                    /* Full width */
+                    margin: 20px auto;
+                    /* Center it */
+                }
+                .apply-container {
+                    left: 0;
+                    /* Center it */
+                    width: 100%;
+                    /* Full width */
+                }
+                .apply-1 {
+                    width: 100%;
+                    /* Full width */
+                    padding: 10px;
+                    /* Adjust padding */
+                }
+            }
+            
+            @media (max-width: 768px) {
+                .apply {
+                    top: 40px;
+                    /* Adjust position */
+                    left: 20px;
+                    /* Adjust position */
+                    padding: 6px 16px;
+                    /* Adjust padding */
+                    font-size: 12px;
+                    /* Adjust font size */
+                }
+                .naac {
+                    width: 100%;
+                    /* Full width on mobile */
+                    top: 60px;
+                    /* Adjust position */
+                    left: 10px;
+                    /* Adjust position */
+                }
+                .program-text {
+                    top: -400px;
+                    /* Adjust position */
+                    left: 10px;
+                    /* Adjust position */
+                    font-size: 12px;
+                    /* Adjust font size */
+                }
+                .bca-box {
+                    right: 20px;
+                    /* Adjust position */
+                    top: 600px;
+                    /* Adjust position */
+                    width: 90%;
+                    /* Full width on mobile */
+                }
+                .key {
+                    font-size: 24px;
+                    /* Adjust font size */
+                    top: -400px;
+                    /* Adjust position */
+                }
+                .flex {
+                    flex-direction: column;
+                    /* Stack items vertically */
+                    width: 100%;
+                    /* Full width on mobile */
+                }
+                .banner-btn {
+                    left: 20px;
+                    /* Adjust position */
+                    top: -50px;
+                    /* Adjust position */
+                }
+                .boxer-box,
+                .Curriculum {
+                    width: 100%;
+                    /* Full width on mobile */
+                    height: auto;
+                    /* Adjust height */
+                }
+                .Curriculum ul li {
+                    top: 0;
+                    /* Reset position */
+                    left: 0;
+                    /* Reset position */
+                    margin: 5px;
+                    /* Adjust margin */
+                }
+            }
+            /* Media Queries for Responsiveness */
+            
+            @media (max-width: 768px) {
+                .footer {
+                    padding: 10px;
+                    /* Reduce padding for smaller screens */
+                }
+                .link div {
+                    display: block;
+                    /* Stack links vertically */
+                    margin: 10px 0;
+                    /* Adjust margin for vertical stacking */
+                }
+                .quick li a {
+                    font-size: 12px;
+                    /* Adjust font size for smaller screens */
+                }
+                .copy-right {
+                    font-size: 12px;
+                    /* Adjust font size for copyright */
+                }
+                .apply-10 {
+                    width: 100%;
+                    /* Make button full width */
+                    margin: 10px 0;
+                    /* Adjust margin for spacing */
+                }
+                .fa {
+                    font-size: 20px;
+                    /* Adjust icon size for smaller screens */
+                }
+            }
